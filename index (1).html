@@ -44,8 +44,8 @@
             Hi, I'm Michael Jones! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
           </h1>
           <p>
-            I am a software project manager and I am learning software development.
-            My interest are software engineering, cloud migtations, and machine learning.
+            Hello! I am a Software Project Manager and I want to enhance my front and back end development skills to move into software engineering field.
+            My interest are cybersecurity, serverless infrastructure, and machine learning.
           </p>
       </div>
     </section>
@@ -89,24 +89,24 @@
     </section>
           
     <!-- Projects -->
-    <section class="projects" id="projects">
+    <section class="projects" id="project-card">
       <h2>
         Projects
       </h2>
       <div style="clear:both;"></div>
 
-        <div id="projects-container" class="projects-container">
+        <div id="project-card" class="project-card">
           <div class="project-card">
-            <h3>AI Trading Bot</h3>
+            <h3>AI Trading Bot class</h3>
             <ul>
-              <li> I want to develop a AI trading bot that leverages machine learning and financial market analysis to make trades in my stock account. </li>
+              <li> I want to develop a AI trading bot that leverages machine learning and financial market analysis to make trades through a stock account. </li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
             <h3>Business Page Site Generator</h3>
             <ul>
-              <li> I want to create a web application for small businesses to create their own websites. </li>
+              <li> I want to create a web application for small businesses to create their own websites easily and more affordabily. </li>
             </ul>
           </div>
           <hr>
@@ -127,17 +127,17 @@
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          Michael is a very fast learner. He picks up fast on every situation and adapts for the best results.
+          Michael is a very fast learner. He picks up fast on every situation and adapts for the best results. I definately look forward to working with him again.
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I had a great time working with Michael. He made some awesome recommendations when building our software for our new company.
+          I had a great time working with Michael. He made some awesome recommendations when building our software for our new company. We are so happy to have him on our team!
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Michael currently manages our small business website and he is super responsive when there are any issues. 10/10 would recommend.
+          Michael currently manages our small business website and he is super responsive when there are any issues. He is very fast at responding and starts working on the problem immediately. 10/10 would recommend.
           <span>&#8221;</span>
         </div>
       </div>
@@ -151,7 +151,7 @@
           <input type="text" placeholder="Name (Optional)"> <br/>
           <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
           <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+            <button id="recommend_btn" onclick="addRecommendation(onclick)">Submit</button>
           </div>
         </fieldset>
       </div>
@@ -159,13 +159,16 @@
 
     <div class="iconbutton">
       <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
         <!--Add the code here for the logo to appear and the icon to be actionable-->
       </a>
     </div>
 
     <div class="popup" id="popup" class="flex_center">
       <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
+      <h3>Thank you for submitting a recommendation!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
